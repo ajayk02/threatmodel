@@ -19,6 +19,99 @@
         "cells": [
           {
             "position": {
+              "x": 973,
+              "y": -479.9999999999998
+            },
+            "size": {
+              "width": 220,
+              "height": 130
+            },
+            "attrs": {
+              "label": {
+                "text": "Application -> Database"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "b0f90a94-ae17-448c-8e5f-d0ebaa9d03d7",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Application -> Database",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "71f36f6c-d680-4424-ac00-3740f52e440c"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 90,
+              "y": -340
+            },
+            "size": {
+              "width": 570,
+              "height": 320
+            },
+            "attrs": {
+              "label": {
+                "text": "User -> Application (Untrusted Input)"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "dd1c5da1-659d-4423-95bb-cefae2fa2091",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "User -> Application (Untrusted Input)",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "d5e9901a-e91f-41ae-811d-d9f6a541f5fa",
+                "c0e4bfd5-b373-4d97-b3d1-a7b49ea228b6"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 760,
+              "y": -349.9999999999998
+            },
+            "size": {
+              "width": 370,
+              "height": 340
+            },
+            "attrs": {
+              "label": {
+                "text": "Application → File System (Untrusted File Boundary)"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "4b71a435-2c78-4d20-b052-f2956e5c5cc5",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Application → File System (Untrusted File Boundary)",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "f164c126-547e-405d-bd3c-b4cbc55dd83a"
+              ],
+              "containedElements": [
+                "adf38a86-f3e7-4c24-b1a1-fa7e1661fd37"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 130,
               "y": -270
             },
@@ -423,7 +516,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "4b71a435-2c78-4d20-b052-f2956e5c5cc5"
+              ]
             },
             "labels": [
               ""
@@ -1126,6 +1221,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1209,7 +1305,6 @@
               ]
             },
             "id": "adf38a86-f3e7-4c24-b1a1-fa7e1661fd37",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "savegames/*.json",
