@@ -366,7 +366,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -380,71 +380,16 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              ""
+              "Data Flow"
             ],
-            "id": "b08ac364-d874-4546-8b6b-c224bdae50e0",
+            "id": "6812ae53-fb24-4255-9e01-2393bbaa3b36",
             "source": {
-              "x": 682,
-              "y": -110
+              "x": 650,
+              "y": -159
             },
             "target": {
-              "x": 950,
-              "y": -80
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "x": 750,
+              "y": -59
             }
           },
           {
@@ -809,8 +754,8 @@
           },
           {
             "position": {
-              "x": 920,
-              "y": -190
+              "x": 760,
+              "y": -280
             },
             "size": {
               "width": 190,
